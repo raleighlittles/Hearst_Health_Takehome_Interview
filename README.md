@@ -15,11 +15,10 @@ The method signature is as follows:
 
 ```typescript
 interface PriceUpdate {
-retailer: string;
-// the name of the retailer
-sku: string;// assume retailers share a common SKU
-price: number;// always the price per unit
-url?: string;// product detail link, optional
+retailer: string; // the name of the retailer
+sku: string; // assume retailers share a common SKU
+price: number; // always the price per unit
+url?: string; // product detail link, optional
 }
 ```
 
